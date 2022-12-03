@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Desarrollo web">
+    <meta name="description" content="Portafolio de desarrollo web">
+    <meta name="keywords" content="HTML,CSS,JavaScript,React">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo web</title>
+
+<!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="perfilquim0.jpg">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--iconos de boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+<!--CSS-->
+<link href="styles.css" rel="stylesheet">
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&dislay=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="perfilquim0.jpg" width="50" alt="Logo de la pagina web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi">Acerca de mÍ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonios">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!--Section Hero-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="perfilquim1.jpg" alt="Foto de Jul">
+            <h1> Hola, soy Julieta</h1>
+            <h2> Soy estudiante de ingeniería química.</h2>
+            
+    <!--<h5>En esta página se pretende proyectar informacion acerca de esta carrera universitaria. <br> ¿Estás listo?/h5>-->
+
+    <!--Animacion con JavaScript-->   
+    <h2 class="text-primary mb-4" id="typewriter"></h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="perfilquim2.jpg" alt="Monitor, laptop y logos de HTML,CSS,JavaScript y React.">
+        </div>
+    </section>
+
+<!--Sobre mi-->
+<section id="Sobre mi" class="Sobre mis experiencias">
+    <div class="Contenedor">
+        <h2 class="Seccion-titulo"> Conoce un poco de ingeniería química</h2>
+        <p class="seccion-texto"> Ingeniería Química es la rama de la Ingeniería que se dedica al estudio, síntesis, desarrollo, <br>
+            diseño, operación y optimización de todos aquellos procesos industriales que producen cambios físicos, químicos <br>
+            y/o bioquímicos en la materia para obtener productos de mayor valor.</p>
+    </div>
+</section>
+
+<!--Experiencia-->
+<section class="Experiencia seccion-clara">
+    <div class="container text-center">
+        <div class="row">
+        <!--Desarrollo de experiencias-->
+        <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Campo laboral</p>
+            <p> El Ingeniero Químico tiene como deber encargarse de la composición de los materiales, su comportamiento y
+                cómo estos pueden combinarse para llegar al resultado deseado.
+                Existe una gran cantidad de ambientes en donde puede desarrollar su labor.</p>
+            
+            <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Fotos</span>
+                <span class="badge text-bg-primary">Ambiente <br>
+                laboral</span>
+                <span class="badge text-bg-primary">Ventajas</span>
+            </div>
+        </div>
+
+    <!--Articulos-->
+    <div class="columna col-12 col-md-4">
+    <i class=" bi bi-laptop"></i>
+    <p class="experiencia-titulo">Articulos</p>
+    <p> En esta sección encontrará artículos técnicos del más alto nivel científico, así como reportajes y entrevistas</p>
+    <div class="badges-contenedor">
+        <span class="badge text-bg-primary">Entrevistas</span>
+        <span class="badge text-bg-primary">ArtÍculos</span>
+        <span class="badge text-bg-primary">Reportajes</span>
+    </div>
+    </div>
+
+<!--Estudiante-->
+<div class="columna col-12 col-md-4">
+    <i class="bi bi-laptop"></i>
+    <p class="experiencia-titulo">Softwares</p>
+    <p>En esta sección encontrará programas gratis para ingenieros químicos y técnicos de laboratorio.</p>
+    <div class="badges-contenedor">
+        <span class="badge text-bg-primary">COCO</span>
+        <span class="badge text-bg-primary">Statgraphics</span>
+        <span class="badge text-bg-primary">Reack</span>
+    </div>
+</div>
+    </div>
+    </div>
+</section>
+
+<!-- Proyectos-->
+<section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos acerca de ingeniería química</h3>
+    <!--Galeria de proyectos-->
+    <div class="container text-center proyectos-contenedor">
+        <div class="row">
+            <!--Proyecto 1-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="proyecto1.png" alt="Proyecto 1">
+                    <div class="overlay">
+                        <p>Proyecto 1</p>
+                        <div class="iconos-contenedor">
+                            <a href="imagenes/Proy1.jpg" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Proyecto 2-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="proyecto2.jpg" alt="Proyecto 1">
+                    <div class="overlay">
+                        <p>Proyecto 2</p>
+                        <div class="iconos-contenedor">
+                            <a href="imagenes/proy2.jpg" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#/" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="proyecto3.jpg" alt="Proyecto 1">
+                    <div class="overlay">
+                        <p>Proyecto 3</p>
+                        <div class="iconos-contenedor">
+                            <a href="imagenes/proy3.3.jpeg" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#/" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Proyecto 4-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="proyecto4.jpg" alt="Proyecto 1">
+                    <div class="overlay">
+                        <p>Proyecto 4</p>
+                        <div class="iconos-contenedor">
+                            <a href="imagenes/proy4.jpg" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Proyecto 5-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="proyecto5.jpg" alt="Proyecto 1">
+                    <div class="overlay">
+                        <p>Proyecto 5</p>
+                        <div class="iconos-contenedor">
+                            <a href="imagenes/proy5.jpg" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Proyecto 6-->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="proyecto">
+                    <img src="proyecto6.jpg" alt="Proyecto 1">
+                    <div class="overlay">
+                        <p>Proyecto 6</p>
+                        <div class="iconos-contenedor">
+                            <a href="imagenes/proy6.jpg" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-laptop"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>    
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+            Ver mas proyectos
+            <i class="bi bi-arrow-right-cicle-fill"></i>
+        </button>
+    </a>
+</section>
+
+<!--Articulos-->
+<section class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Articulos</h2>
+    <div class="card">
+        <div class="card-header">
+            Mas recientes
+        </div>
+        <ul class="list-group-flush">
+            <a href="https://www.industriaquimica.es/articulos/20221103/ahorro-energetico-mediante-inspeccion-ultrasonidos-purgadores-vapor" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Ahorro energético mediante la inspección de ultrasonidos en purgadores de vapor
+                </li>
+            </a>
+            <a href="http://web.ula.ve/servicio-comunitario/ciencias/wp-content/uploads/sites/5/2018/06/Manual-Laboratorio-de-Qu%C3%ADmica.pdf" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Practicas de laboratorio
+                </li>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Imagenes de resultados 
+                </li>
+            </a>
+            <a href="https://www.industriaquimica.es/articulos/20221004/herramienta-tratamiento-agua-depuradora-industrial" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Herramienta para el tratamiento del agua en una depuradora industrial
+                </li>
+            </a>
+            <a href="https://www.industriaquimica.es/articulos/20221004/tecnologia-disruptiva-eliminacion-hidrocarburos-solidos-suspension-industria-petroquimica" target="_blank" rel="noopener noreferrer">
+                <li class="list-group-item">
+                    Tecnología disruptiva para eliminación de hidrocarburos y sólidos en suspensión para la industria petroquímica
+                </li>
+            </a>
+        </ul>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+            Ver mas articulos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+    </a>
+</section>
+
+<!--Testimonios-->
+<section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Formación</h2>
+    <h3 class="seccion-descripcion">Ingeniería química</h3>
+
+<!--Carrusel-->
+<div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container">
+                <img class="testimonio-imagen rounded-circle" src="perfil1.jpg" alt="Foto de Gina">
+                <p class="testimonio-texto"> La ingeniería química es una de las carreras más gratificantes que puedas elegir.<br> Esto es porque la industria química es una de las fuerzas impulsoras más importantes de las economías de muchos países.</p>
+                <div class="testimonio-info">
+                    <P class="cliente"></P>
+                    <p class="cargo">Carrera más desafiante</p>
+                </div>
+            </div>
+        </div>
+<div class="carousel-item">
+    <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="perfil2.jpg" alt="Foto de nora">
+        <p class="testimonio-texto">Durante la carrera, se estudian los procesos fisicoquímicos a nivel molecular, pero también a nivel de escala industrial. La formación está fuertemente basada en disciplinas como matemática, física, química, informática e ingeniería; <br> pero también incluye nociones de economía, gestión y seguridad y medio ambiente.</p>
+        <div class="testimonio-info">
+            <p class="cliente"></p>
+            <p class="cargo">Habilidades y competencias</p>
+</div>
+</div>
+</div>
+<div class="carousel-item">
+    <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="perfil3.jpg" alt="Foto de Maria">
+        <p class="testimonio-texto">Estudiar ingeniería química puede llevarte a una carrera creativa y desafiante - una carrera bien remunerada, y que al mismo tiempo ayuda a que la sociedad no sólo funcione, sino también prospere.</p>
+        <div class="testimonio-info">
+            <p class="cargo">Mercado laboral</p>
+    </div>
+    </div>
+    </div>
+    </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">anterior</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">siguiente</span>
+</button>
+</div>
+</section>
+
+<!--contacto-->
+<section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                    Hablemos
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                    Contactame para iniciar
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://www.facebook.com/julieta.antonio.3388">
+                        <button type="button">
+                            Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                        </button>
+                    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!--pie de pagina (footer)-->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="quimica.jpg" alt="logo del portafolio">
+    <p class="footer-texto text-center">La química debe convertirse en la astronomía del mundo molecular.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+        </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://www.facebook.com/julieta.antonio.3388" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+    </a>
+    <a href="www.ajulieta827@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+    </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Julieta</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
